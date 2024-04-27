@@ -62,7 +62,6 @@ class HashMap {
   const map = new HashMap(10);
   map.set("name", "Bruce");
   map.set("age", 25);
-  map.display();
   console.log(map.get("name"));
   map.set("mane", "Clark");
   map.set("name", "Diana");
