@@ -25,14 +25,20 @@ class Queue {
         console.log(this.items);
     }
 
+    peek(){
+        return this.items[this.front]
+    }
+
 }
 
-const queue = new Queue()
-console.log(queue.size())
-queue.enqueue(1)
-queue.enqueue(2)
-queue.enqueue(3)
-console.log(queue.size())
-queue.print()
-queue.dequeue()
-queue.print()
+// const queue = new Queue()
+// console.log(queue.size())
+// queue.enqueue(1)
+// queue.enqueue(2)
+// queue.enqueue(3)
+// console.log(queue.size())
+// queue.print()
+// queue.dequeue()
+// queue.print()
+
+module.exports = Queue
