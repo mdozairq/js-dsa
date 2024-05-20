@@ -58,7 +58,7 @@ class SnakeLadderGame{
         }else{
             newPosition = this.board.getNewPosition(newPosition)
         }
-        console.log(newPosition);
+
         player.setPosition(newPosition)
         console.log(`${player.name} moved to position ${newPosition}`);
 
